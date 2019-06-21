@@ -4,7 +4,7 @@
   let player;
   let game;
 
-  const socket = io.connect('http://192.168.1.109:8080/');
+  const socket = io.connect('https://tictacteoofficial.herokuapp.com/');
 
   class Player {
     constructor(name, type) {
